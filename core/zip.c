@@ -7,11 +7,13 @@ int main()     // unzip and refind
 	FILE *fd;
 	int stat;
 	int i=1;
-
+	
+	
 	system("mkdir ZIP");  // creat ZIP directory
 	
+	while(0){
 	system("unzip *.zip -d /home/ZIP"); // unzip *.zip in ZIP directory
-
+	}
 	system("cd ZIP");
 
 	if(val == no);
@@ -24,5 +26,5 @@ int main()     // unzip and refind
 	return 0;
 
 
-wq
+
 
